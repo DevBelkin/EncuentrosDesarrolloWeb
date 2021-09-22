@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/SL_043021_42650_02.jpg);
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 150px;
+    border-radius: 12px;
+    text-align: center;
+    transition: .5s;
+}
+
+.imagenLogo {
+    width: 150px;
+}
+
+.principal h2 {
+    text-transform: initial;
+    font-weight: 500;
+}
+
+.formulario1 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario1 input {
+    margin-bottom: 10px;
+    border-radius: 25px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    padding: 0 5px;
+    width: 100%;
+    height: 40px;
+    transition: .5s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    width: calc(100% + 35px);
+    border: 1.5px solid #473BF0;
+}
+
+input[type="submit"] {
+    width: calc(100% + 10px);
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #473BF0;
+    color: white;
+    transform: translateY(-5px);
+    -webkit-box-shadow: 0px 19px 21px 6px rgba(255, 255, 255, 0.31);
+    box-shadow: 0px 3px 15px 2px rgba(255, 255, 255, 0.31);
+}
+
+.linkRegistro {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: initial;
+    transition: .2s;
+}
